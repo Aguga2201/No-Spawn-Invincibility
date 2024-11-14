@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "no-spawn-invincibility",
+	"version": "${version}",
+	"name": "No Spawn Invincibility",
+	"description": "Decreases the spawn invincibility from 60 ticks to 10",
+	"authors": [
+		"Aguga2201"
+	],
+	"contact": {
+		"sources": "https://github.com/Aguga2201/no-spawn-invincibility",
+		"issues": "https://github.com/Aguga2201/no-spawn-invincibility/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/no-spawn-invincibility/icon.png",
+	"environment": "*",
+	"mixins": [
+		"no-spawn-invincibility.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
+		"java": ">=21"
+	}
+}
